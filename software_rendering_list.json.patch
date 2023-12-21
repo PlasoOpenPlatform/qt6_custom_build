@@ -1,0 +1,21 @@
+--- old/software_rendering_list.json	2023-03-12 11:16:34.000000000 +0800
++++ new/software_rendering_list.json	2023-12-20 17:41:17.373029900 +0800
+@@ -1407,18 +1407,6 @@
+       ]
+     },
+     {
+-      "id": 158,
+-      "description": "Canvas rendering issues with Intel drivers on Windows since 94-based: https://bugreports.qt.io/browse/QTBUG-104065",
+-      "cr_bugs": [1316442],
+-      "os": {
+-        "type": "win"
+-      },
+-      "vendor_id": "0x8086",
+-      "features": [
+-        "accelerated_2d_canvas"
+-      ]
+-    },
+-    {
+       "id": 159,
+       "cr_bugs": [902247],
+       "description": "Disallow OpenGL use on Mac with old NVIDIA GPUs",

@@ -1,0 +1,5 @@
+# Qt6 自定义编译
+Windows下Qt6缺省的QWebEngineCore.dll不包含一些媒体解码，无法播放网页中的mp4。
+同时因为渲染问题禁用了Intel集成显卡的GPU加速，网页中图形元素增多会导致帧率急剧下降。
+此自定义编译打开了h264等解码器，同时修改代码解除了Intel显卡GPU限制。
+具体编译过程参见qtbuild.bat文件。
